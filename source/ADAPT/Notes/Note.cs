@@ -28,7 +28,7 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Notes
 
         public string Description { get; set; }
         
-        public EnumeratedValue Value { get; set; }
+        public EnumeratedRepresentationValue Value { get; set; }
         
         public List<TimeScope> TimeStamps { get; set; }
         

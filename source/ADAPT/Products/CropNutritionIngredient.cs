@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -17,6 +17,6 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Products
 {
     public class CropNutritionIngredient : Ingredient
     {
-        public EnumeratedValue IngredientCode { get; set; }
+        public EnumeratedRepresentationValue IngredientCode { get; set; }
     }
 }

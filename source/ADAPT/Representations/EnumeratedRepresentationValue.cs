@@ -12,7 +12,7 @@
 
 namespace AgGateway.ADAPT.ApplicationDataModel.Representations
 {
-    public class EnumeratedValue : RepresentationValue
+    public class EnumeratedRepresentationValue : RepresentationValue
     {
         public EnumeratedRepresentation Representation { get; set; }
 

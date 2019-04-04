@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -62,7 +62,7 @@ namespace AgGateway.ADAPT.Representation.RepresentationSystem.ExtensionMethods
          };
       }
 
-      public static EnumerationMember ToInternalEnumMember(this EnumeratedValue enumMember)
+      public static EnumerationMember ToInternalEnumMember(this EnumeratedRepresentationValue enumMember)
       {
          var representation = enumMember.Representation.ToInternalRepresentation();
          return representation.EnumerationMembers.First(em => em.DomainTag == enumMember.Value.Code);

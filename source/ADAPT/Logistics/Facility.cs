@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -34,7 +34,7 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 
         public ContactInfo ContactInfo { get; set; }
 
-        public EnumeratedValue FacilityType { get; set; }
+        public EnumeratedRepresentationValue FacilityType { get; set; }
 
         public List<ContextItem> ContextItems { get; set; }
         

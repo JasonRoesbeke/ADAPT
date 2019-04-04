@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
   * Copyright (C) 2015 AgGateway and ADAPT Contributors
   * Copyright (C) 2015 Deere and Company
   * All rights reserved. This program and the accompanying materials
@@ -30,7 +30,7 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Logistics
 
         public int PersonId { get; set; }
 
-        public EnumeratedValue Role { get; set; }
+        public EnumeratedRepresentationValue Role { get; set; }
         
         public int? GrowerId { get; set; }
 

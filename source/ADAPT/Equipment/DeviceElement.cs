@@ -1,4 +1,4 @@
-﻿/*******************************************************************************
+/*******************************************************************************
  * Copyright (C) 2016 AgGateway and ADAPT Contributors
  * Copyright (C) 2016 Deere and Company
  * All rights reserved. This program and the accompanying materials
@@ -38,7 +38,7 @@ namespace AgGateway.ADAPT.ApplicationDataModel.Equipment
 
         public List<ContextItem> ContextItems { get; set; } 
 
-        public EnumeratedValue DeviceClassification { get; set; }
+        public EnumeratedRepresentationValue DeviceClassification { get; set; }
 
         public int DeviceModelId { get; set; }
 
