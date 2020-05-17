@@ -122,7 +122,7 @@ namespace AgGateway.ADAPT.Representation.RepresentationSystem
 
         vrAppRateVolumeActual = 49,
 
-        vrAppRateVolumeTarget = 51,
+        vrAppRateVolumeDefault = 51,
 
         vrABRowSpacing = 1,
 
@@ -218,7 +218,7 @@ namespace AgGateway.ADAPT.Representation.RepresentationSystem
 
         vrAppRateMassSetPoint = 46,
 
-        vrAppRateMassTarget = 47,
+        vrAppRateMassDefault = 47,
 
         vrAppRateVolumePerHour = 600,
 

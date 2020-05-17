@@ -122,7 +122,7 @@ namespace AgGateway.ADAPT.Representation.RepresentationSystem
 
         public const int vrAppRateVolumeActual = 49;
 
-        public const int vrAppRateVolumeTarget = 51;
+        public const int vrAppRateVolumeDefault = 51;
 
         public const int vrABRowSpacing = 1;
 
@@ -218,7 +218,7 @@ namespace AgGateway.ADAPT.Representation.RepresentationSystem
 
         public const int vrAppRateMassSetPoint = 46;
 
-        public const int vrAppRateMassTarget = 47;
+        public const int vrAppRateMassDefault = 47;
 
         public const int vrAppRateVolumePerHour = 600;
 

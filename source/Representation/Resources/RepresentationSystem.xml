@@ -4,170 +4,7 @@
 	<SchemaVersion major="1" minor="1"/>
 	<ContentVersion major="1" minor="6"/>
 	<Representations>
-		<NumericRepresentation domainID="vrAppRateVolumeSetPoint" domainTag="50" digits="5" decimal="1">
-			<RelatedDDI ddi="1" unitOfMeasure="[mm3]1[m2]-1" resolution="0.01" offset="0" isDefaultRepresentationForDDI="true" />
-			<UnitOfMeasureDefault unitOfMeasure="gal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasureDefault unitOfMeasure="l1ha-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasureDefault unitOfMeasure="igal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="kl1ha-1" digits="4" decimal="2" minValue="0" maxValue="9999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="ml1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="ul1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="dl1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitDimensionRef unitDimension="utVolumePerArea"/>
-			<Name locale="en" description="AppRateVolumeMapped">application rate volume mapped</Name>
-			<Name locale="de" description="Kartiertes Ausbringratenvolumen">Kartiertes Ausbringratenvolumen</Name>
-			<Name locale="fr" description="Volume tx application cartogr">volume tx application cartogr</Name>
-			<Name locale="da" description="Dos.mængdeVolumenKortlagt">doseringsmængde, volumen kortlagt</Name>
-			<Name locale="nl" description="ToepassingswaardeVolumeOpKaart">toepassingswaarde volume op kaart</Name>
-			<Name locale="es" description="DosisAplicMapaPorVolumen">dosis de aplicación mapeada por volumen</Name>
-			<Name locale="it" description="Volume velocità applicazione mappato">volume dose applicazione mappato</Name>
-			<Name locale="pt" description="VolumeTaxaAplicMapeado">volume da taxa de aplicação mapeado</Name>
-			<Name locale="ru" description="Зарегистрированный объем нормы внесения">зарегистрированный объем нормы внесения</Name>
-			<Name locale="hu" description="TérképezettKijuttatottMennyiség">feltérképezett kijuttatott mennyiség</Name>
-			<Name locale="cs" description="MapovanýObjemRychlostiAplikace">mapovaný objem rychlosti aplikace</Name>
-			<Name locale="sk" description="Dávka objem mapovaný">namapovaný objem dávky aplikácie</Name>
-			<Name locale="fi" description="Kartoitettu levitysnopeus (tilavuus)">kartoitettu levitysnopeus (tilavuus)</Name>
-			<Name locale="sv" description="Kartlagdappl.volym">kartlagd appliceringsmängd</Name>
-			<Name locale="et" description="KaardistRakendArvestMaht">kaardistatud rakenduse arvestusmaht</Name>
-			<Name locale="lv" description="LietojumaVienībaPēcApjomaKartējuma">lietojuma vienība pēc apjoma kartējuma</Name>
-			<Name locale="lt" description="PažymėtoTūrioTaikMastas">pažymėto tūrio taikymo mastas</Name>
-			<Name locale="no" description="PåførHastighetVolumKartlagt">påføring, hastighet, volum, kartlagt</Name>
-			<Name locale="pl" description="PrzypisaneTempoStosowaniaWgObjętości">przypisane tempo stosowania wg objętości</Name>
-			<Name locale="bg" description="Приблнормаобемизобразена">приложена норма обем изобразена</Name>
-			<Name locale="hr" description="OmjerAplikObujamMapiran">omjer aplikacije obujam mapiran</Name>
-			<Name locale="ro" description="AppRateVolumeMapped">volum cartografiat al ratei de aplicare</Name>
-			<Name locale="tr" description="UygulamaDebiHacmiEşleşen">uygulama debi hacmi, eşleşen</Name>
-			<Name locale="el" description="ΑπεικονΌγκοςΡυθμΕφαρμ">απεικον. όγκος ρυθμού εφαρμογής</Name>
-			<Name locale="is" description="Notkunarhl.rúmtaksvarpað">notkunarhlutfall rúmtaks varpað</Name>
-			<Name locale="sr" description="MapiranaZapreminaStopePrimene">mapirana zapremina stope primene</Name>
-			<Name locale="sl" description="DeležUporDolPoProst">delež up. merjeno po prostorn.</Name>
-			<Name locale="zh" description="AppRateVolumeMapped">用地图估算的施用量体积</Name>
-			<Name locale="ar" description="معدل التطبيق المحول بالحجم">معدل التطبيق المحول بالحجم</Name>
-			<Name locale="he" description="מיפוי נפח קצב אפליקציה">מיפוי נפח קצב אפליקציה</Name>
-			<Name locale="ja" description="適用率体積マップ値">適用率体積マップ値</Name>
-			<Name locale="kk" description="ҚолдануМөлшерініңБелгіленгенКөлемі">қолдану мөлшерінің белгіленген көлемі</Name>
-			<Name locale="ko" description="적용 속도 용량 매핑">적용 속도 용량 매핑</Name>
-			<Name locale="mk" description="мапирана зафатнина на стапката на примена">мапирана зафатнина на стапката на примена</Name>
-			<Name locale="th" description="ปริมาตรตามอัตราการใช้งานที่ตรงกัน">ปริมาตรตามอัตราการใช้งานที่ตรงกัน</Name>
-			<Name locale="uk" description="Об&apos;ємВнесенихРечовинЗаДанимиМапи">об&apos;єм внесених речовин за даними мапи</Name>
-			<Name locale="ug" description="خەرىتە بىلەن ئۆلچەنگەن قوللانمىنىڭ سىغىم نىسبىتى">خەرىتە بىلەن ئۆلچەنگەن قوللانمىنىڭ سىغىم نىسبىتى</Name>
-			<Name locale="vi" description="Thể tích theo tốc độ ứng dụng được ánh xạ">thể tích theo tốc độ ứng dụng được ánh xạ</Name>
-		</NumericRepresentation>
-		<NumericRepresentation domainID="vrAppRateVolumeActual" domainTag="49" digits="5" decimal="1">
-			<RelatedDDI ddi="2" unitOfMeasure="[mm3]1[m2]-1" resolution="0.01" offset="0" isDefaultRepresentationForDDI="true" />
-			<UnitOfMeasureDefault unitOfMeasure="gal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasureDefault unitOfMeasure="l1ha-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasureDefault unitOfMeasure="igal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="kl1ha-1" digits="4" decimal="2" minValue="0" maxValue="9999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="ml1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="ul1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="dl1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitDimensionRef unitDimension="utVolumePerArea"/>
-			<Name locale="en" description="AppRateVolumeActual">application rate volume Actual</Name>
-			<Name locale="de" description="Gemessenes Ausbringratenvolumen">Gemessenes Ausbringratenvolumen</Name>
-			<Name locale="fr" description="Volume taux application mesuré">volume taux application mesuré</Name>
-			<Name locale="da" description="Dos.mængdeVolumenMålt">doseringsmængde, volumen målt</Name>
-			<Name locale="nl" description="GemetenToepassingswaardeVolume">gemeten toepassingswaarde volume</Name>
-			<Name locale="es" description="DosisAplicMedidaPorVolumen">dosis de aplicación medida por volumen</Name>
-			<Name locale="it" description="Volume velocità applicazione misurato">volume dose applicazione misurato</Name>
-			<Name locale="pt" description="VolumeTaxaAplicMedido">volume da taxa de aplicação medido</Name>
-			<Name locale="ru" description="Измеренный объем нормы внесения">измеренный объем нормы внесения</Name>
-			<Name locale="hu" description="MértKijuttatottMennyiség">mért kijuttatott mennyiség</Name>
-			<Name locale="cs" description="MěřenýObjemRychlostiAplikace">měřený objem rychlosti aplikace</Name>
-			<Name locale="sk" description="Dávka objem odmeraný">odmeraný objem dávky aplikácie</Name>
-			<Name locale="fi" description="Mitattu levitysnopeus (tilavuus)">mitattu levitysnopeus (tilavuus)</Name>
-			<Name locale="sv" description="Uppmättappl.volym">uppmätt appliceringsmängd</Name>
-			<Name locale="et" description="HinnatRakendArvestMaht">hinnatud rakenduse arvestusmaht</Name>
-			<Name locale="lv" description="LietojumaVienībaPēcApjomaSvara">lietojuma vienība pēc apjoma svara</Name>
-			<Name locale="lt" description="PamatuotoTūrioTaikMastas">pamatuoto tūrio taikymo mastas</Name>
-			<Name locale="no" description="PåførHastighetVolumMålt">påføring, hastighet, volum, målt</Name>
-			<Name locale="pl" description="MierzoneTempoStosowaniaWgObjętości">mierzone tempo stosowania wg objętości</Name>
-			<Name locale="bg" description="Приблнормаобемпремерена">приложена норма обем премерена</Name>
-			<Name locale="hr" description="OmjerAplikObujamIzmjeren">omjer aplikacije obujam izmjeren</Name>
-			<Name locale="ro" description="AppRateVolumeActual">volum măsurat al ratei de aplicare</Name>
-			<Name locale="tr" description="ÖlçülenUygulamaDebiHacmi">ölçülen uygulama debi hacmi</Name>
-			<Name locale="el" description="ΜετρηθΌγκοςΡυθμΕφαρμ">μετρηθείς όγκος ρυθμού εφαρμογής</Name>
-			<Name locale="is" description="Notkunarhl.rúmtaksmælt">notkunarhlutfall rúmtaks mælt</Name>
-			<Name locale="sr" description="IzmerenaZapreminaStopePrimene">izmerena zapremina stope primene</Name>
-			<Name locale="sl" description="DelUpMerjenoPoProstor">delež up. merjeno po prostorn.</Name>
-			<Name locale="zh" description="AppRateVolumeActual">测得的施用体积</Name>
-			<Name locale="ar" description="معدل التطبيق المقاس بالحجم">معدل التطبيق المقاس بالحجم</Name>
-			<Name locale="he" description="מדידת נפח קצב אפליקציה">מדידת נפח קצב אפליקציה</Name>
-			<Name locale="ja" description="適用率体積測定値">適用率体積測定値</Name>
-			<Name locale="kk" description="ҚолдануМөлшерініңӨлшенгенКөлемі">қолдану мөлшерінің өлшенген көлемі</Name>
-			<Name locale="ko" description="적용 속도 용량 측정">적용 속도 용량 측정</Name>
-			<Name locale="mk" description="измерена зафатнина на стапката на примена">измерена зафатнина на стапката на примена</Name>
-			<Name locale="th" description="ปริมาตรตามอัตราการใช้งานที่ตวงได้">ปริมาตรตามอัตราการใช้งานที่ตวงได้</Name>
-			<Name locale="uk" description="ВимірянийОб&apos;ємВнесенихРечовин">цільовий об&apos;єм внесених речовин</Name>
-			<Name locale="ug" description="ئۆلچەنگەن قوللانمىنىڭ سىغىم نىسبىتى">ئۆلچەنگەن قوللانمىنىڭ سىغىم نىسبىتى</Name>
-			<Name locale="vi" description="Thể tích theo tốc độ ứng dụng được đo">thể tích theo tốc độ ứng dụng được đo</Name>
-		</NumericRepresentation>
-		<NumericRepresentation domainID="vrAppRateVolumeTarget" domainTag="51" digits="5" decimal="1">
-			<UnitOfMeasureDefault unitOfMeasure="gal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasureDefault unitOfMeasure="l1ha-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasureDefault unitOfMeasure="igal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="kl1ha-1" digits="4" decimal="2" minValue="0" maxValue="9999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="ml1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="ul1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="dl1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitDimensionRef unitDimension="utVolumePerArea"/>
-			<Name locale="en" description="AppRateVolumeTarget">application rate volume target</Name>
-			<Name locale="de" description="Soll-Ausbringratenvolumen">Soll-Ausbringratenvolumen</Name>
-			<Name locale="fr" description="Volume taux application cible">volume taux application cible</Name>
-			<Name locale="da" description="Dos.mængdeVolumenMålsat">doseringsmængde, volumen målsat</Name>
-			<Name locale="nl" description="DoelToepassingswaardeVolume">doel toepassingswaarde volume</Name>
-			<Name locale="es" description="VolDeseadoDosisAplic">volumen deseado en dosis de aplicación</Name>
-			<Name locale="it" description="Volume velocità applicazione prefissato">volume dose applicazione prefissato</Name>
-			<Name locale="pt" description="VolumeTaxaAplicAlvo">volume da taxa de aplicação alvo</Name>
-			<Name locale="ru" description="Целевой объем нормы внесения">целевой объем нормы внесения</Name>
-			<Name locale="hu" description="KívántKijuttatottMennyiség">kívánt kijuttatott mennyiség</Name>
-			<Name locale="cs" description="CílovýObjemRychlostiAplikace">cílový objem rychlosti aplikace</Name>
-			<Name locale="sk" description="Dávka objem cieľový">cieľový objem dávky aplikácie</Name>
-			<Name locale="fi" description="kohteen levitysnopeus (tilavuus)">kohteen levitysnopeus (tilavuus)</Name>
-			<Name locale="sv" description="Målförappl.volym">mål för appliceringsvolym</Name>
-			<Name locale="et" description="RakendArvestSihtMaht">rakenduse arvestuse sihtmaht</Name>
-			<Name locale="lv" description="LietojumaVienībaPēcPlānotāApjoma">lietojuma vienība pēc plānotā apjoma</Name>
-			<Name locale="lt" description="TikslinioTūrioTaikMastas">tikslinio tūrio taikymo mastas</Name>
-			<Name locale="no" description="PåførHastighetVolumMål">påføring, hastighet, volum, mål</Name>
-			<Name locale="pl" description="DocelowaObjętośćDlaTempaStosowania">docelowa objętość dla tempa stosowania</Name>
-			<Name locale="bg" description="Приблнормаобемпланирана">приложена норма обем планирана</Name>
-			<Name locale="hr" description="OmjerAplikCiljniObujam">omjer aplikacije ciljni obujam</Name>
-			<Name locale="ro" description="AppRateVolumeTarget">volum-ţintă al ratei de aplicare</Name>
-			<Name locale="tr" description="UygulamaDebiHacmiHedefi">uygulama debi hacmi hedefi</Name>
-			<Name locale="el" description="ΣτόχοςΌγκουΡυθμΕφαρμ">στόχος όγκου ρυθμού εφαρμογής</Name>
-			<Name locale="is" description="Notkunarhl.rúmtaksmarks">notkunarhlutfall rúmtaksmarks</Name>
-			<Name locale="sr" description="CiljnaZapreminaStopePrimene">ciljna zapremina stope primene</Name>
-			<Name locale="sl" description="DeležUporCiljProst">delež upor. cilj prostornine</Name>
-			<Name locale="zh" description="AppRateVolumeTarget">目标施用量体积</Name>
-			<Name locale="ar" description="معدل التطبيق المطلوب بالحجم ">معدل التطبيق المطلوب بالحجم</Name>
-			<Name locale="he" description="יעד נפח קצב אפליקציה">יעד נפח קצב אפליקציה</Name>
-			<Name locale="ja" description="適用率体積目標値">適用率体積目標値</Name>
-			<Name locale="kk" description="ҚолдануМөлшерініңМақсаттыКөлемі">қолдану мөлшерінің мақсатты көлемі</Name>
-			<Name locale="ko" description="적용 속도 용량 목표">적용 속도 용량 목표</Name>
-			<Name locale="mk" description="целна зафатнина на стапката на примена">целна зафатнина на стапката на примена</Name>
-			<Name locale="th" description="ปริมาตรตามอัตราการใช้งานเป้าหมาย">ปริมาตรตามอัตราการใช้งานเป้าหมาย</Name>
-			<Name locale="uk" description="ЦільовийОб&apos;ємВнесенихРечовин">цільовий об&apos;єм внесених речовин</Name>
-			<Name locale="ug" description="نېشان قوللانما سىغىم نىسبىتى">نېشان قوللانما سىغىم نىسبىتى</Name>
-			<Name locale="vi" description="Mục tiêu thể tích theo tốc độ ứng dụng">mục tiêu thể tích theo tốc độ ứng dụng</Name>
-		</NumericRepresentation>
+		
 		<NumericRepresentation domainID="vrABRowSpacing" domainTag="1" digits="3" decimal="2">
 			<UnitOfMeasureDefault unitOfMeasure="ft" digits="3" decimal="2" unitOfMeasureSystem="umsEnglish"/>
 			<UnitOfMeasureDefault unitOfMeasure="m" digits="3" decimal="2" unitOfMeasureSystem="umsMetric"/>
@@ -1246,94 +1083,6 @@
 			<Name locale="ug" description="ئۈسكۈنە يانغا ئېغىش">ئۈسكۈنە يانغا ئېغىش</Name>
 			<Name locale="vi" description="Dịch chuyển ngang của dụng cụ">dịch chuyển ngang của dụng cụ</Name>
 		</NumericRepresentation>
-		<NumericRepresentation domainID="vrTotalInlineDistance" domainTag="280" digits="4" decimal="0">
-			<UnitOfMeasureDefault unitOfMeasure="in" digits="4" decimal="0" minValue="0" maxValue="1200" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasureDefault unitOfMeasure="cm" digits="4" decimal="0" minValue="0" maxValue="3048" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasureDefault unitOfMeasure="in" digits="4" decimal="0" minValue="0" maxValue="1200" unitOfMeasureSystem="umsImperial"/>
-			<UnitDimensionRef unitDimension="utDistance"/>
-			<Name locale="en" description="TotalInlineDistance">Total Inline Distance</Name>
-			<Name locale="de" description="TotalInlineDistance">Gesamter Längsabstand</Name>
-			<Name locale="fr" description="DistanceLongitTotale">Distance longit totale</Name>
-			<Name locale="da" description="SamletLængdeafstand">Samlet længdeafstand</Name>
-			<Name locale="nl" description="TotaleLijnafstand">Totale lijnafstand</Name>
-			<Name locale="es" description="DistanciaLinealTotal">Distancia lineal total</Name>
-			<Name locale="it" description="DistanzaInLineaTotale">Distanza in linea totale</Name>
-			<Name locale="pt" description="DistânciaEmLinhaTotal">Distância em Linha Total</Name>
-			<Name locale="ru" description="ОбщееЛинейноеРасстояние">Общее линейное расстояние</Name>
-			<Name locale="hu" description="TeljesHosszirányúTávolság">Teljes hosszirányú távolság</Name>
-			<Name locale="cs" description="CelkováŘadováVzdálenost">Celková řadová vzdálenost</Name>
-			<Name locale="sk" description="Celk.PozdĺžnaVzdial.">Celk. pozdĺžna vzdial.</Name>
-			<Name locale="fi" description="PitkittäisetäisyysKokonaan">Pitkittäisetäisyys kokonaan</Name>
-			<Name locale="sv" description="TotaltRaktAvstånd">Totalt rakt avstånd</Name>
-			<Name locale="et" description="PikisuunalineKogupikkus">Pikisuunaline kogupikkus</Name>
-			<Name locale="lv" description="KopējaisIekšlīnijasAttālums">Kopējais iekšlīnijas attālums</Name>
-			<Name locale="lt" description="BendrasVidinisAtstumas">Bendras vidinis atstumas</Name>
-			<Name locale="no" description="SamletLengderetningsdistanse">Samlet lengderetningsdistanse</Name>
-			<Name locale="pl" description="CałkowitaOdległośćWzdłużna">Całkowita odległość wzdłużna</Name>
-			<Name locale="bg" description="ОбщоРедовоРазстояние">Общо редово разстояние</Name>
-			<Name locale="hr" description="Ukup.Longit.Udaljen.">Ukup. longit. udaljen.</Name>
-			<Name locale="ro" description="Dist.TotalăInLinie">Dist.totală în linie</Name>
-			<Name locale="tr" description="ToplamBoyunaMesafe">Toplam Boyuna Mesafe</Name>
-			<Name locale="el" description="ΣυνολΚατάΜηκΑποστ">Συνολ κατά μηκ αποστ</Name>
-			<Name locale="is" description="HeildarÌnnfeldFjarlægð">Heildar innfeld fjarlægð</Name>
-			<Name locale="sr" description="UkupnoPodužnoRastojanje">Ukupno podužno rastojanje</Name>
-			<Name locale="sl" description="Skup.VzdolžnaRazdalja">Skup. vzdolžna razdalja</Name>
-			<Name locale="zh" description="TotalInlineDistance">总直线距离</Name>
-			<Name locale="ar" description="المسافة الخطية الإجمالية">المسافة الخطية الإجمالية</Name>
-			<Name locale="he" description="סה&quot;כ מרחק קו ישר">סה&quot;כ מרחק קו ישר</Name>
-			<Name locale="ja" description="インライン合計距離">インライン合計距離</Name>
-			<Name locale="kk" description="ЖалпыКірістірілгенҚашықтық">Жалпы кірістірілген қашықтық</Name>
-			<Name locale="ko" description="총 인라인 거리">총 인라인 거리</Name>
-			<Name locale="mk" description="Вкупно линиско растојание">Вкупно линиско растојание</Name>
-			<Name locale="th" description="ระยะห่างแนวตรงรวม">ระยะห่างแนวตรงรวม</Name>
-			<Name locale="uk" description="ЗагальнаВідстаньУздовж">Загальна відстань уздовж</Name>
-			<Name locale="ug" description="ئومۇمىي تارماق ئارىلىقى">ئومۇمىي تارماقنىڭ ئارىلىقى</Name>
-			<Name locale="vi" description="Tổng khoảng cách dọc">Tổng khoảng cách dọc</Name>
-		</NumericRepresentation>
-		<NumericRepresentation domainID="vrTotalLateralDistance" domainTag="281" digits="3" decimal="0">
-			<UnitOfMeasureDefault unitOfMeasure="in" digits="3" decimal="0" minValue="0" maxValue="240" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasureDefault unitOfMeasure="cm" digits="3" decimal="0" minValue="0" maxValue="609" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasureDefault unitOfMeasure="in" digits="3" decimal="0" minValue="0" maxValue="240" unitOfMeasureSystem="umsImperial"/>
-			<UnitDimensionRef unitDimension="utDistance"/>
-			<Name locale="en" description="TotalLateralDistance">Total lateral Distance</Name>
-			<Name locale="de" description="TotalLateralDistance">Gesamter Querabstand</Name>
-			<Name locale="fr" description="DistanceLatéraleTotale">Distance latérale totale</Name>
-			<Name locale="da" description="SamletLateralAfstand">Samlet lateral afstand</Name>
-			<Name locale="nl" description="TotaleLateraleAfstand">Totale laterale afstand</Name>
-			<Name locale="es" description="DistanciaLateralTotal">Distancia lateral total</Name>
-			<Name locale="it" description="DistanzaLateraleTotale">Distanza laterale totale</Name>
-			<Name locale="pt" description="DistânciaLateralTotal">Distância Lateral Total</Name>
-			<Name locale="ru" description="ОбщееБоковоеРасстояние">Общее боковое расстояние</Name>
-			<Name locale="hu" description="TeljesOldalirányúTávolság">Teljes oldalirányú távolság</Name>
-			<Name locale="cs" description="CelkováLaterálníVzdálenost">Celková laterální vzdálenost</Name>
-			<Name locale="sk" description="CelkováŠírka">Celková šírka</Name>
-			<Name locale="fi" description="PoikittaisetäisyysKokonaan">Poikittaisetäisyys kokonaan</Name>
-			<Name locale="sv" description="TotaltSidledesAvstånd">Totalt sidledes avstånd</Name>
-			<Name locale="et" description="PõikisuunalineKogupikkus">Põikisuunaline kogupikkus</Name>
-			<Name locale="lv" description="Kopējais sānu attālums">Kopējais sānu attālums</Name>
-			<Name locale="lt" description="Bendras šoninis atstumas">Bendras šoninis atstumas</Name>
-			<Name locale="no" description="SamletSideveisDistanse">Samlet sideveis distanse</Name>
-			<Name locale="pl" description="CałkowitaOdległośćBoczna">Całkowita odległość boczna</Name>
-			<Name locale="bg" description="ОбщоСтраничноРазстояние">Общо странично разстояние</Name>
-			<Name locale="hr" description="Ukup.BočnaUdaljen.">Ukup. bočna udaljen.</Name>
-			<Name locale="ro" description="Dist.TotalăLaterală">Dist.totală laterală</Name>
-			<Name locale="tr" description="Toplam Yanal Mesafe">ToplamYanalMesafe</Name>
-			<Name locale="el" description="Distance latérale totale">Συνολ πλευρική αποστ</Name>
-			<Name locale="is" description="Heildar hliðarfjarlægð">Heildar hliðarfjarlægð</Name>
-			<Name locale="sr" description="UkupnoBočnoRastojanje">Ukupno bočno rastojanje</Name>
-			<Name locale="sl" description="Skup.PrečnaRazdalja">Skup. prečna razdalja</Name>
-			<Name locale="zh" description="TotalLateralDistance">总横向距离</Name>
-			<Name locale="ar" description="المسافة الجانبية الإجمالية">المسافة الجانبية الإجمالية</Name>
-			<Name locale="he" description="סה&quot;כ מרחק צדדי">סה&quot;כ מרחק צדדי</Name>
-			<Name locale="ja" description="横合計距離">横合計距離</Name>
-			<Name locale="kk" description="ЖалпыБүйірлікҚашықтық">Жалпы бүйірлік қашықтық</Name>
-			<Name locale="ko" description="총 측면 거리">총 측면 거리</Name>
-			<Name locale="mk" description="Вкупно странично растојание">Вкупно странично растојание</Name>
-			<Name locale="th" description="ระยะห่างแนวด้านข้างรวม">ระยะห่างแนวด้านข้างรวม</Name>
-			<Name locale="uk" description="ЗагальнаВідстаньУпоперек">Загальна відстань упоперек</Name>
-			<Name locale="ug" description="ئومۇمىي يان ئارىلىق">ئومۇمىي يان ئارىلىق</Name>
-			<Name locale="vi" description="Tổng khoảng cách ngang">Tổng khoảng cách ngang</Name>
-		</NumericRepresentation>
 		<NumericRepresentation domainID="vrVerticalOffset" domainTag="25" digits="2" decimal="0">
 			<RelatedDDI ddi="136" unitOfMeasure="mm" resolution="0.01" offset="0" isDefaultRepresentationForDDI="true"/>
 			<UnitOfMeasureDefault unitOfMeasure="in" digits="2" decimal="0" unitOfMeasureSystem="umsEnglish"/>
@@ -2331,7 +2080,7 @@
 			<Name locale="ug" description="خەرىتە بىلەن ھېسابلانغان قوللانما ئېغىرلىق نىسبىتى">خەرىتە بىلەن ھېسابلانغان قوللانما ئېغىرلىق نىسبىتى</Name>
 			<Name locale="vi" description="Khối lượng theo tốc độ ứng dụng được ánh xạ">khối lượng theo tốc độ ứng dụng được ánh xạ</Name>
 		</NumericRepresentation>
-		<NumericRepresentation domainID="vrAppRateMassTarget" domainTag="47" digits="5" decimal="1">
+		<NumericRepresentation domainID="vrAppRateMassDefault" domainTag="47" digits="5" decimal="1">
 			<RelatedDDI ddi="8" unitOfMeasure="mg1[m2]-1" resolution="0.000001" offset="0" isDefaultRepresentationForDDI="true" />
 			<UnitOfMeasureDefault unitOfMeasure="lb1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsEnglish"/>
 			<UnitOfMeasureDefault unitOfMeasure="kg1ha-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsMetric"/>
@@ -2385,61 +2134,173 @@
 			<Name locale="ug" description="نېشان قوللانما ئېغىرلىق نىسبىتى">نېشان قوللانما ئېغىرلىق نىسبىتى</Name>
 			<Name locale="vi" description="Mục tiêu khối lượng theo tốc độ ứng dụng">mục tiêu khối lượng theo tốc độ ứng dụng</Name>
 		</NumericRepresentation>
-		<NumericRepresentation domainID="vrAppRateVolumePerHour" domainTag="600" digits="5" decimal="1">
-			<UnitOfMeasureDefault unitOfMeasure="gal1hr-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasureDefault unitOfMeasure="l1hr-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasureDefault unitOfMeasure="igal1hr-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="kl1hr-1" digits="4" decimal="2" minValue="0" maxValue="9999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="pt1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="qt1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="floz1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-			<UnitOfMeasurePreference unitOfMeasure="ml1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="ul1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="dl1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-			<UnitOfMeasurePreference unitOfMeasure="pt1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="qt1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitOfMeasurePreference unitOfMeasure="floz1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-			<UnitDimensionRef unitDimension="utVolumePerTime"/>
-			<Name locale="en" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="de" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="fr" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="da" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="nl" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="es" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="it" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="pt" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="ru" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="hu" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="cs" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="sk" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="fi" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="sv" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="et" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="lv" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="lt" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="no" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="pl" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="bg" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="hr" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="ro" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="tr" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="el" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="is" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="sr" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="sl" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="zh" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="ar" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="he" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="ja" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="kk" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="ko" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="mk" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="th" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="uk" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="ug" description="AppRateVolume per hour">AppRateVolume per hour</Name>
-			<Name locale="vi" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+		
+		<NumericRepresentation domainID="vrAppRateVolumeActual" domainTag="49" digits="5" decimal="1">
+			<RelatedDDI ddi="2" unitOfMeasure="[mm3]1[m2]-1" resolution="0.01" offset="0" isDefaultRepresentationForDDI="true" />
+			<UnitOfMeasureDefault unitOfMeasure="gal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasureDefault unitOfMeasure="l1ha-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasureDefault unitOfMeasure="igal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="kl1ha-1" digits="4" decimal="2" minValue="0" maxValue="9999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="ml1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="ul1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="dl1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitDimensionRef unitDimension="utVolumePerArea"/>
+			<Name locale="en" description="AppRateVolumeActual">application rate volume Actual</Name>
+			<Name locale="de" description="Gemessenes Ausbringratenvolumen">Gemessenes Ausbringratenvolumen</Name>
+			<Name locale="fr" description="Volume taux application mesuré">volume taux application mesuré</Name>
+			<Name locale="da" description="Dos.mængdeVolumenMålt">doseringsmængde, volumen målt</Name>
+			<Name locale="nl" description="GemetenToepassingswaardeVolume">gemeten toepassingswaarde volume</Name>
+			<Name locale="es" description="DosisAplicMedidaPorVolumen">dosis de aplicación medida por volumen</Name>
+			<Name locale="it" description="Volume velocità applicazione misurato">volume dose applicazione misurato</Name>
+			<Name locale="pt" description="VolumeTaxaAplicMedido">volume da taxa de aplicação medido</Name>
+			<Name locale="ru" description="Измеренный объем нормы внесения">измеренный объем нормы внесения</Name>
+			<Name locale="hu" description="MértKijuttatottMennyiség">mért kijuttatott mennyiség</Name>
+			<Name locale="cs" description="MěřenýObjemRychlostiAplikace">měřený objem rychlosti aplikace</Name>
+			<Name locale="sk" description="Dávka objem odmeraný">odmeraný objem dávky aplikácie</Name>
+			<Name locale="fi" description="Mitattu levitysnopeus (tilavuus)">mitattu levitysnopeus (tilavuus)</Name>
+			<Name locale="sv" description="Uppmättappl.volym">uppmätt appliceringsmängd</Name>
+			<Name locale="et" description="HinnatRakendArvestMaht">hinnatud rakenduse arvestusmaht</Name>
+			<Name locale="lv" description="LietojumaVienībaPēcApjomaSvara">lietojuma vienība pēc apjoma svara</Name>
+			<Name locale="lt" description="PamatuotoTūrioTaikMastas">pamatuoto tūrio taikymo mastas</Name>
+			<Name locale="no" description="PåførHastighetVolumMålt">påføring, hastighet, volum, målt</Name>
+			<Name locale="pl" description="MierzoneTempoStosowaniaWgObjętości">mierzone tempo stosowania wg objętości</Name>
+			<Name locale="bg" description="Приблнормаобемпремерена">приложена норма обем премерена</Name>
+			<Name locale="hr" description="OmjerAplikObujamIzmjeren">omjer aplikacije obujam izmjeren</Name>
+			<Name locale="ro" description="AppRateVolumeActual">volum măsurat al ratei de aplicare</Name>
+			<Name locale="tr" description="ÖlçülenUygulamaDebiHacmi">ölçülen uygulama debi hacmi</Name>
+			<Name locale="el" description="ΜετρηθΌγκοςΡυθμΕφαρμ">μετρηθείς όγκος ρυθμού εφαρμογής</Name>
+			<Name locale="is" description="Notkunarhl.rúmtaksmælt">notkunarhlutfall rúmtaks mælt</Name>
+			<Name locale="sr" description="IzmerenaZapreminaStopePrimene">izmerena zapremina stope primene</Name>
+			<Name locale="sl" description="DelUpMerjenoPoProstor">delež up. merjeno po prostorn.</Name>
+			<Name locale="zh" description="AppRateVolumeActual">测得的施用体积</Name>
+			<Name locale="ar" description="معدل التطبيق المقاس بالحجم">معدل التطبيق المقاس بالحجم</Name>
+			<Name locale="he" description="מדידת נפח קצב אפליקציה">מדידת נפח קצב אפליקציה</Name>
+			<Name locale="ja" description="適用率体積測定値">適用率体積測定値</Name>
+			<Name locale="kk" description="ҚолдануМөлшерініңӨлшенгенКөлемі">қолдану мөлшерінің өлшенген көлемі</Name>
+			<Name locale="ko" description="적용 속도 용량 측정">적용 속도 용량 측정</Name>
+			<Name locale="mk" description="измерена зафатнина на стапката на примена">измерена зафатнина на стапката на примена</Name>
+			<Name locale="th" description="ปริมาตรตามอัตราการใช้งานที่ตวงได้">ปริมาตรตามอัตราการใช้งานที่ตวงได้</Name>
+			<Name locale="uk" description="ВимірянийОб&apos;ємВнесенихРечовин">цільовий об&apos;єм внесених речовин</Name>
+			<Name locale="ug" description="ئۆلچەنگەن قوللانمىنىڭ سىغىم نىسبىتى">ئۆلچەنگەن قوللانمىنىڭ سىغىم نىسبىتى</Name>
+			<Name locale="vi" description="Thể tích theo tốc độ ứng dụng được đo">thể tích theo tốc độ ứng dụng được đo</Name>
 		</NumericRepresentation>
-		<NumericRepresentation domainID="vrAppHeightTarget" domainTag="52" digits="3" decimal="1">
+		<NumericRepresentation domainID="vrAppRateVolumeSetPoint" domainTag="50" digits="5" decimal="1">
+			<RelatedDDI ddi="1" unitOfMeasure="[mm3]1[m2]-1" resolution="0.01" offset="0" isDefaultRepresentationForDDI="true" />
+			<UnitOfMeasureDefault unitOfMeasure="gal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasureDefault unitOfMeasure="l1ha-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasureDefault unitOfMeasure="igal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="kl1ha-1" digits="4" decimal="2" minValue="0" maxValue="9999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="ml1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="ul1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="dl1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitDimensionRef unitDimension="utVolumePerArea"/>
+			<Name locale="en" description="AppRateVolumeMapped">application rate volume mapped</Name>
+			<Name locale="de" description="Kartiertes Ausbringratenvolumen">Kartiertes Ausbringratenvolumen</Name>
+			<Name locale="fr" description="Volume tx application cartogr">volume tx application cartogr</Name>
+			<Name locale="da" description="Dos.mængdeVolumenKortlagt">doseringsmængde, volumen kortlagt</Name>
+			<Name locale="nl" description="ToepassingswaardeVolumeOpKaart">toepassingswaarde volume op kaart</Name>
+			<Name locale="es" description="DosisAplicMapaPorVolumen">dosis de aplicación mapeada por volumen</Name>
+			<Name locale="it" description="Volume velocità applicazione mappato">volume dose applicazione mappato</Name>
+			<Name locale="pt" description="VolumeTaxaAplicMapeado">volume da taxa de aplicação mapeado</Name>
+			<Name locale="ru" description="Зарегистрированный объем нормы внесения">зарегистрированный объем нормы внесения</Name>
+			<Name locale="hu" description="TérképezettKijuttatottMennyiség">feltérképezett kijuttatott mennyiség</Name>
+			<Name locale="cs" description="MapovanýObjemRychlostiAplikace">mapovaný objem rychlosti aplikace</Name>
+			<Name locale="sk" description="Dávka objem mapovaný">namapovaný objem dávky aplikácie</Name>
+			<Name locale="fi" description="Kartoitettu levitysnopeus (tilavuus)">kartoitettu levitysnopeus (tilavuus)</Name>
+			<Name locale="sv" description="Kartlagdappl.volym">kartlagd appliceringsmängd</Name>
+			<Name locale="et" description="KaardistRakendArvestMaht">kaardistatud rakenduse arvestusmaht</Name>
+			<Name locale="lv" description="LietojumaVienībaPēcApjomaKartējuma">lietojuma vienība pēc apjoma kartējuma</Name>
+			<Name locale="lt" description="PažymėtoTūrioTaikMastas">pažymėto tūrio taikymo mastas</Name>
+			<Name locale="no" description="PåførHastighetVolumKartlagt">påføring, hastighet, volum, kartlagt</Name>
+			<Name locale="pl" description="PrzypisaneTempoStosowaniaWgObjętości">przypisane tempo stosowania wg objętości</Name>
+			<Name locale="bg" description="Приблнормаобемизобразена">приложена норма обем изобразена</Name>
+			<Name locale="hr" description="OmjerAplikObujamMapiran">omjer aplikacije obujam mapiran</Name>
+			<Name locale="ro" description="AppRateVolumeMapped">volum cartografiat al ratei de aplicare</Name>
+			<Name locale="tr" description="UygulamaDebiHacmiEşleşen">uygulama debi hacmi, eşleşen</Name>
+			<Name locale="el" description="ΑπεικονΌγκοςΡυθμΕφαρμ">απεικον. όγκος ρυθμού εφαρμογής</Name>
+			<Name locale="is" description="Notkunarhl.rúmtaksvarpað">notkunarhlutfall rúmtaks varpað</Name>
+			<Name locale="sr" description="MapiranaZapreminaStopePrimene">mapirana zapremina stope primene</Name>
+			<Name locale="sl" description="DeležUporDolPoProst">delež up. merjeno po prostorn.</Name>
+			<Name locale="zh" description="AppRateVolumeMapped">用地图估算的施用量体积</Name>
+			<Name locale="ar" description="معدل التطبيق المحول بالحجم">معدل التطبيق المحول بالحجم</Name>
+			<Name locale="he" description="מיפוי נפח קצב אפליקציה">מיפוי נפח קצב אפליקציה</Name>
+			<Name locale="ja" description="適用率体積マップ値">適用率体積マップ値</Name>
+			<Name locale="kk" description="ҚолдануМөлшерініңБелгіленгенКөлемі">қолдану мөлшерінің белгіленген көлемі</Name>
+			<Name locale="ko" description="적용 속도 용량 매핑">적용 속도 용량 매핑</Name>
+			<Name locale="mk" description="мапирана зафатнина на стапката на примена">мапирана зафатнина на стапката на примена</Name>
+			<Name locale="th" description="ปริมาตรตามอัตราการใช้งานที่ตรงกัน">ปริมาตรตามอัตราการใช้งานที่ตรงกัน</Name>
+			<Name locale="uk" description="Об&apos;ємВнесенихРечовинЗаДанимиМапи">об&apos;єм внесених речовин за даними мапи</Name>
+			<Name locale="ug" description="خەرىتە بىلەن ئۆلچەنگەن قوللانمىنىڭ سىغىم نىسبىتى">خەرىتە بىلەن ئۆلچەنگەن قوللانمىنىڭ سىغىم نىسبىتى</Name>
+			<Name locale="vi" description="Thể tích theo tốc độ ứng dụng được ánh xạ">thể tích theo tốc độ ứng dụng được ánh xạ</Name>
+		</NumericRepresentation>
+		<NumericRepresentation domainID="vrAppRateVolumeDefault" domainTag="51" digits="5" decimal="1">
+			<RelatedDDI ddi="3" unitOfMeasure="[mm3]1[m2]-1" resolution="0.01" offset="0" isDefaultRepresentationForDDI="true"/>
+			<UnitOfMeasureDefault unitOfMeasure="gal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasureDefault unitOfMeasure="l1ha-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasureDefault unitOfMeasure="igal1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="kl1ha-1" digits="4" decimal="2" minValue="0" maxValue="9999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="ml1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="ul1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="dl1ha-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="pt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="qt1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="floz1ac-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitDimensionRef unitDimension="utVolumePerArea"/>
+			<Name locale="en" description="AppRateVolumeTarget">application rate volume target</Name>
+			<Name locale="de" description="Soll-Ausbringratenvolumen">Soll-Ausbringratenvolumen</Name>
+			<Name locale="fr" description="Volume taux application cible">volume taux application cible</Name>
+			<Name locale="da" description="Dos.mængdeVolumenMålsat">doseringsmængde, volumen målsat</Name>
+			<Name locale="nl" description="DoelToepassingswaardeVolume">doel toepassingswaarde volume</Name>
+			<Name locale="es" description="VolDeseadoDosisAplic">volumen deseado en dosis de aplicación</Name>
+			<Name locale="it" description="Volume velocità applicazione prefissato">volume dose applicazione prefissato</Name>
+			<Name locale="pt" description="VolumeTaxaAplicAlvo">volume da taxa de aplicação alvo</Name>
+			<Name locale="ru" description="Целевой объем нормы внесения">целевой объем нормы внесения</Name>
+			<Name locale="hu" description="KívántKijuttatottMennyiség">kívánt kijuttatott mennyiség</Name>
+			<Name locale="cs" description="CílovýObjemRychlostiAplikace">cílový objem rychlosti aplikace</Name>
+			<Name locale="sk" description="Dávka objem cieľový">cieľový objem dávky aplikácie</Name>
+			<Name locale="fi" description="kohteen levitysnopeus (tilavuus)">kohteen levitysnopeus (tilavuus)</Name>
+			<Name locale="sv" description="Målförappl.volym">mål för appliceringsvolym</Name>
+			<Name locale="et" description="RakendArvestSihtMaht">rakenduse arvestuse sihtmaht</Name>
+			<Name locale="lv" description="LietojumaVienībaPēcPlānotāApjoma">lietojuma vienība pēc plānotā apjoma</Name>
+			<Name locale="lt" description="TikslinioTūrioTaikMastas">tikslinio tūrio taikymo mastas</Name>
+			<Name locale="no" description="PåførHastighetVolumMål">påføring, hastighet, volum, mål</Name>
+			<Name locale="pl" description="DocelowaObjętośćDlaTempaStosowania">docelowa objętość dla tempa stosowania</Name>
+			<Name locale="bg" description="Приблнормаобемпланирана">приложена норма обем планирана</Name>
+			<Name locale="hr" description="OmjerAplikCiljniObujam">omjer aplikacije ciljni obujam</Name>
+			<Name locale="ro" description="AppRateVolumeTarget">volum-ţintă al ratei de aplicare</Name>
+			<Name locale="tr" description="UygulamaDebiHacmiHedefi">uygulama debi hacmi hedefi</Name>
+			<Name locale="el" description="ΣτόχοςΌγκουΡυθμΕφαρμ">στόχος όγκου ρυθμού εφαρμογής</Name>
+			<Name locale="is" description="Notkunarhl.rúmtaksmarks">notkunarhlutfall rúmtaksmarks</Name>
+			<Name locale="sr" description="CiljnaZapreminaStopePrimene">ciljna zapremina stope primene</Name>
+			<Name locale="sl" description="DeležUporCiljProst">delež upor. cilj prostornine</Name>
+			<Name locale="zh" description="AppRateVolumeTarget">目标施用量体积</Name>
+			<Name locale="ar" description="معدل التطبيق المطلوب بالحجم ">معدل التطبيق المطلوب بالحجم</Name>
+			<Name locale="he" description="יעד נפח קצב אפליקציה">יעד נפח קצב אפליקציה</Name>
+			<Name locale="ja" description="適用率体積目標値">適用率体積目標値</Name>
+			<Name locale="kk" description="ҚолдануМөлшерініңМақсаттыКөлемі">қолдану мөлшерінің мақсатты көлемі</Name>
+			<Name locale="ko" description="적용 속도 용량 목표">적용 속도 용량 목표</Name>
+			<Name locale="mk" description="целна зафатнина на стапката на примена">целна зафатнина на стапката на примена</Name>
+			<Name locale="th" description="ปริมาตรตามอัตราการใช้งานเป้าหมาย">ปริมาตรตามอัตราการใช้งานเป้าหมาย</Name>
+			<Name locale="uk" description="ЦільовийОб&apos;ємВнесенихРечовин">цільовий об&apos;єм внесених речовин</Name>
+			<Name locale="ug" description="نېشان قوللانما سىغىم نىسبىتى">نېشان قوللانما سىغىم نىسبىتى</Name>
+			<Name locale="vi" description="Mục tiêu thể tích theo tốc độ ứng dụng">mục tiêu thể tích theo tốc độ ứng dụng</Name>
+		</NumericRepresentation>
+		<NumericRepresentation domainID="vrAppHeightSetPoint" domainTag="52" digits="3" decimal="1">
 			<RelatedDDI ddi="61" unitOfMeasure="mm" resolution="0.01" offset="0"/>
 			<UnitOfMeasureDefault unitOfMeasure="in" digits="3" decimal="1" minValue="0" maxValue="100.0" unitOfMeasureSystem="umsEnglish"/>
 			<UnitOfMeasureDefault unitOfMeasure="cm" digits="3" decimal="1" minValue="0" maxValue="254.0" unitOfMeasureSystem="umsMetric"/>
@@ -2484,7 +2345,7 @@
 			<Name locale="ug" description="نېشان قوللانما ئىگىزلىكى">نېشان قوللانما ئىگىزلىكى</Name>
 			<Name locale="vi" description="Mục tiêu độ cao ứng dụng">mục tiêu độ cao ứng dụng</Name>
 		</NumericRepresentation>
-		<NumericRepresentation domainID="vrTillageDepthTarget" domainTag="53" digits="3" decimal="1">
+		<NumericRepresentation domainID="vrTillageDepthSetPoint" domainTag="53" digits="3" decimal="1">
 			<RelatedDDI ddi="51" unitOfMeasure="mm" resolution="0.01" offset="0" isDefaultRepresentationForDDI="true" />
 			<UnitOfMeasureDefault unitOfMeasure="in" digits="3" decimal="1" minValue="0" maxValue="100" unitOfMeasureSystem="umsEnglish"/>
 			<UnitOfMeasureDefault unitOfMeasure="cm" digits="3" decimal="1" minValue="0" maxValue="254" unitOfMeasureSystem="umsMetric"/>
@@ -2529,6 +2390,7 @@
 			<Name locale="ug" description="نېشان تېرىلغۇ چوڭقۇرلۇقى">نېشان تېرىلغۇ چوڭقۇرلۇقى</Name>
 			<Name locale="vi" description="Mục tiêu độ sâu đất canh tác">mục tiêu độ sâu đất canh tác</Name>
 		</NumericRepresentation>
+		
 		<NumericRepresentation domainID="vrSeedRateMassActual" domainTag="55" digits="5" decimal="1">
 			<RelatedDDI ddi="7" unitOfMeasure="mg1[m2]-1" resolution="0.000001" offset="0"/>
 			<UnitOfMeasureDefault unitOfMeasure="lb1ac-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsEnglish"/>
@@ -12268,6 +12130,94 @@
 			<Name locale="ug" description="توشۇش ئارىلىقى">توشۇش ئارىلىقى</Name>
 			<Name locale="vi" description="Khoảng cách vận chuyển">Khoảng cách vận chuyển</Name>
 		</NumericRepresentation>
+		<NumericRepresentation domainID="vrTotalInlineDistance" domainTag="280" digits="4" decimal="0">
+			<UnitOfMeasureDefault unitOfMeasure="in" digits="4" decimal="0" minValue="0" maxValue="1200" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasureDefault unitOfMeasure="cm" digits="4" decimal="0" minValue="0" maxValue="3048" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasureDefault unitOfMeasure="in" digits="4" decimal="0" minValue="0" maxValue="1200" unitOfMeasureSystem="umsImperial"/>
+			<UnitDimensionRef unitDimension="utDistance"/>
+			<Name locale="en" description="TotalInlineDistance">Total Inline Distance</Name>
+			<Name locale="de" description="TotalInlineDistance">Gesamter Längsabstand</Name>
+			<Name locale="fr" description="DistanceLongitTotale">Distance longit totale</Name>
+			<Name locale="da" description="SamletLængdeafstand">Samlet længdeafstand</Name>
+			<Name locale="nl" description="TotaleLijnafstand">Totale lijnafstand</Name>
+			<Name locale="es" description="DistanciaLinealTotal">Distancia lineal total</Name>
+			<Name locale="it" description="DistanzaInLineaTotale">Distanza in linea totale</Name>
+			<Name locale="pt" description="DistânciaEmLinhaTotal">Distância em Linha Total</Name>
+			<Name locale="ru" description="ОбщееЛинейноеРасстояние">Общее линейное расстояние</Name>
+			<Name locale="hu" description="TeljesHosszirányúTávolság">Teljes hosszirányú távolság</Name>
+			<Name locale="cs" description="CelkováŘadováVzdálenost">Celková řadová vzdálenost</Name>
+			<Name locale="sk" description="Celk.PozdĺžnaVzdial.">Celk. pozdĺžna vzdial.</Name>
+			<Name locale="fi" description="PitkittäisetäisyysKokonaan">Pitkittäisetäisyys kokonaan</Name>
+			<Name locale="sv" description="TotaltRaktAvstånd">Totalt rakt avstånd</Name>
+			<Name locale="et" description="PikisuunalineKogupikkus">Pikisuunaline kogupikkus</Name>
+			<Name locale="lv" description="KopējaisIekšlīnijasAttālums">Kopējais iekšlīnijas attālums</Name>
+			<Name locale="lt" description="BendrasVidinisAtstumas">Bendras vidinis atstumas</Name>
+			<Name locale="no" description="SamletLengderetningsdistanse">Samlet lengderetningsdistanse</Name>
+			<Name locale="pl" description="CałkowitaOdległośćWzdłużna">Całkowita odległość wzdłużna</Name>
+			<Name locale="bg" description="ОбщоРедовоРазстояние">Общо редово разстояние</Name>
+			<Name locale="hr" description="Ukup.Longit.Udaljen.">Ukup. longit. udaljen.</Name>
+			<Name locale="ro" description="Dist.TotalăInLinie">Dist.totală în linie</Name>
+			<Name locale="tr" description="ToplamBoyunaMesafe">Toplam Boyuna Mesafe</Name>
+			<Name locale="el" description="ΣυνολΚατάΜηκΑποστ">Συνολ κατά μηκ αποστ</Name>
+			<Name locale="is" description="HeildarÌnnfeldFjarlægð">Heildar innfeld fjarlægð</Name>
+			<Name locale="sr" description="UkupnoPodužnoRastojanje">Ukupno podužno rastojanje</Name>
+			<Name locale="sl" description="Skup.VzdolžnaRazdalja">Skup. vzdolžna razdalja</Name>
+			<Name locale="zh" description="TotalInlineDistance">总直线距离</Name>
+			<Name locale="ar" description="المسافة الخطية الإجمالية">المسافة الخطية الإجمالية</Name>
+			<Name locale="he" description="סה&quot;כ מרחק קו ישר">סה&quot;כ מרחק קו ישר</Name>
+			<Name locale="ja" description="インライン合計距離">インライン合計距離</Name>
+			<Name locale="kk" description="ЖалпыКірістірілгенҚашықтық">Жалпы кірістірілген қашықтық</Name>
+			<Name locale="ko" description="총 인라인 거리">총 인라인 거리</Name>
+			<Name locale="mk" description="Вкупно линиско растојание">Вкупно линиско растојание</Name>
+			<Name locale="th" description="ระยะห่างแนวตรงรวม">ระยะห่างแนวตรงรวม</Name>
+			<Name locale="uk" description="ЗагальнаВідстаньУздовж">Загальна відстань уздовж</Name>
+			<Name locale="ug" description="ئومۇمىي تارماق ئارىلىقى">ئومۇمىي تارماقنىڭ ئارىلىقى</Name>
+			<Name locale="vi" description="Tổng khoảng cách dọc">Tổng khoảng cách dọc</Name>
+		</NumericRepresentation>
+		<NumericRepresentation domainID="vrTotalLateralDistance" domainTag="281" digits="3" decimal="0">
+			<UnitOfMeasureDefault unitOfMeasure="in" digits="3" decimal="0" minValue="0" maxValue="240" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasureDefault unitOfMeasure="cm" digits="3" decimal="0" minValue="0" maxValue="609" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasureDefault unitOfMeasure="in" digits="3" decimal="0" minValue="0" maxValue="240" unitOfMeasureSystem="umsImperial"/>
+			<UnitDimensionRef unitDimension="utDistance"/>
+			<Name locale="en" description="TotalLateralDistance">Total lateral Distance</Name>
+			<Name locale="de" description="TotalLateralDistance">Gesamter Querabstand</Name>
+			<Name locale="fr" description="DistanceLatéraleTotale">Distance latérale totale</Name>
+			<Name locale="da" description="SamletLateralAfstand">Samlet lateral afstand</Name>
+			<Name locale="nl" description="TotaleLateraleAfstand">Totale laterale afstand</Name>
+			<Name locale="es" description="DistanciaLateralTotal">Distancia lateral total</Name>
+			<Name locale="it" description="DistanzaLateraleTotale">Distanza laterale totale</Name>
+			<Name locale="pt" description="DistânciaLateralTotal">Distância Lateral Total</Name>
+			<Name locale="ru" description="ОбщееБоковоеРасстояние">Общее боковое расстояние</Name>
+			<Name locale="hu" description="TeljesOldalirányúTávolság">Teljes oldalirányú távolság</Name>
+			<Name locale="cs" description="CelkováLaterálníVzdálenost">Celková laterální vzdálenost</Name>
+			<Name locale="sk" description="CelkováŠírka">Celková šírka</Name>
+			<Name locale="fi" description="PoikittaisetäisyysKokonaan">Poikittaisetäisyys kokonaan</Name>
+			<Name locale="sv" description="TotaltSidledesAvstånd">Totalt sidledes avstånd</Name>
+			<Name locale="et" description="PõikisuunalineKogupikkus">Põikisuunaline kogupikkus</Name>
+			<Name locale="lv" description="Kopējais sānu attālums">Kopējais sānu attālums</Name>
+			<Name locale="lt" description="Bendras šoninis atstumas">Bendras šoninis atstumas</Name>
+			<Name locale="no" description="SamletSideveisDistanse">Samlet sideveis distanse</Name>
+			<Name locale="pl" description="CałkowitaOdległośćBoczna">Całkowita odległość boczna</Name>
+			<Name locale="bg" description="ОбщоСтраничноРазстояние">Общо странично разстояние</Name>
+			<Name locale="hr" description="Ukup.BočnaUdaljen.">Ukup. bočna udaljen.</Name>
+			<Name locale="ro" description="Dist.TotalăLaterală">Dist.totală laterală</Name>
+			<Name locale="tr" description="Toplam Yanal Mesafe">ToplamYanalMesafe</Name>
+			<Name locale="el" description="Distance latérale totale">Συνολ πλευρική αποστ</Name>
+			<Name locale="is" description="Heildar hliðarfjarlægð">Heildar hliðarfjarlægð</Name>
+			<Name locale="sr" description="UkupnoBočnoRastojanje">Ukupno bočno rastojanje</Name>
+			<Name locale="sl" description="Skup.PrečnaRazdalja">Skup. prečna razdalja</Name>
+			<Name locale="zh" description="TotalLateralDistance">总横向距离</Name>
+			<Name locale="ar" description="المسافة الجانبية الإجمالية">المسافة الجانبية الإجمالية</Name>
+			<Name locale="he" description="סה&quot;כ מרחק צדדי">סה&quot;כ מרחק צדדי</Name>
+			<Name locale="ja" description="横合計距離">横合計距離</Name>
+			<Name locale="kk" description="ЖалпыБүйірлікҚашықтық">Жалпы бүйірлік қашықтық</Name>
+			<Name locale="ko" description="총 측면 거리">총 측면 거리</Name>
+			<Name locale="mk" description="Вкупно странично растојание">Вкупно странично растојание</Name>
+			<Name locale="th" description="ระยะห่างแนวด้านข้างรวม">ระยะห่างแนวด้านข้างรวม</Name>
+			<Name locale="uk" description="ЗагальнаВідстаньУпоперек">Загальна відстань упоперек</Name>
+			<Name locale="ug" description="ئومۇمىي يان ئارىلىق">ئومۇمىي يان ئارىلىق</Name>
+			<Name locale="vi" description="Tổng khoảng cách ngang">Tổng khoảng cách ngang</Name>
+		</NumericRepresentation>
 		<NumericRepresentation domainID="vrIngredientDensity" domainTag="282" digits="2" decimal="2">
 			<RelatedDDI ddi="121" unitOfMeasure="mg1l-1"/>
 			<UnitOfMeasureDefault unitOfMeasure="lb1gal-1" digits="2" decimal="2" minValue="0" maxValue="83.46" unitOfMeasureSystem="umsEnglish"/>
@@ -17457,7 +17407,7 @@
 			<UnitDimensionRef unitDimension="utDistance"/>
 			<Name locale="en" description="Threshing Clearance Actual">Threshing Clearance Actual</Name>
 		</NumericRepresentation>
-		<NumericRepresentation domainID="vrChaferPositionSetPoint" domainTag="523" digits="3" decimal="0">
+		<NumericRepresentation domainID="vrChafferPositionSetPoint" domainTag="523" digits="3" decimal="0">
 			<UnitOfMeasureDefault unitOfMeasure="in" digits="1" decimal="0" minValue="-5" maxValue="5" unitOfMeasureSystem="umsEnglish"/>
 			<UnitOfMeasureDefault unitOfMeasure="mm" digits="3" decimal="0" minValue="-125" maxValue="125" unitOfMeasureSystem="umsMetric"/>
 			<UnitOfMeasureDefault unitOfMeasure="in" digits="1" decimal="0" minValue="-5" maxValue="5" unitOfMeasureSystem="umsImperial"/>
@@ -17734,20 +17684,74 @@
 			<Name locale="ug" description="Acumulated Harvest Wet Mass From Previous Point">Harvest wet mass</Name>
 			<Name locale="vi" description="Acumulated Harvest Wet Mass From Previous Point">Harvest wet mass</Name>
 		</NumericRepresentation>
-	  <NumericRepresentation domainID="vrSolutionRateLiquidDistance" domainTag="554" digits="5" decimal="2">
-	    <UnitOfMeasureDefault unitOfMeasure="gal1hdyd-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
-	    <UnitOfMeasureDefault unitOfMeasure="l1hdm-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
-	    <UnitOfMeasureDefault unitOfMeasure="igal1hdyd-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
-	    <UnitDimensionRef unitDimension="utVolumePerDistance"/>
-	    <Name locale="en" description="Solution rate of a liquid tank measured mix per distance">solution rate liquid distance</Name>
-	  </NumericRepresentation>
-	  <NumericRepresentation domainID="vrSolutionRateMassDistance" domainTag="555" digits="5" decimal="2">
-	    <UnitOfMeasureDefault unitOfMeasure="lb1hdyd-1" digits="5" decimal="2" minValue="0" maxValue="99999.999" unitOfMeasureSystem="umsEnglish"/>
-	    <UnitOfMeasureDefault unitOfMeasure="kg1hdm-1" digits="5" decimal="2" minValue="0" maxValue="99999.999" unitOfMeasureSystem="umsMetric"/>
-	    <UnitOfMeasureDefault unitOfMeasure="lb1hdyd-1" digits="5" decimal="2" minValue="0" maxValue="99999.999" unitOfMeasureSystem="umsImperial"/>
-	    <UnitDimensionRef unitDimension="utMassPerDistance"/>
-	    <Name locale="en" description="Solution rate of a mass tank measured mix per distance">solution rate mass distance</Name>
-	  </NumericRepresentation>
+		<NumericRepresentation domainID="vrSolutionRateLiquidDistance" domainTag="554" digits="5" decimal="2">
+			<UnitOfMeasureDefault unitOfMeasure="gal1hdyd-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasureDefault unitOfMeasure="l1hdm-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasureDefault unitOfMeasure="igal1hdyd-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitDimensionRef unitDimension="utVolumePerDistance"/>
+			<Name locale="en" description="Solution rate of a liquid tank measured mix per distance">solution rate liquid distance</Name>
+		</NumericRepresentation>
+		<NumericRepresentation domainID="vrSolutionRateMassDistance" domainTag="555" digits="5" decimal="2">
+			<UnitOfMeasureDefault unitOfMeasure="lb1hdyd-1" digits="5" decimal="2" minValue="0" maxValue="99999.999" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasureDefault unitOfMeasure="kg1hdm-1" digits="5" decimal="2" minValue="0" maxValue="99999.999" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasureDefault unitOfMeasure="lb1hdyd-1" digits="5" decimal="2" minValue="0" maxValue="99999.999" unitOfMeasureSystem="umsImperial"/>
+			<UnitDimensionRef unitDimension="utMassPerDistance"/>
+			<Name locale="en" description="Solution rate of a mass tank measured mix per distance">solution rate mass distance</Name>
+		</NumericRepresentation>
+		<NumericRepresentation domainID="vrAppRateVolumePerHour" domainTag="600" digits="5" decimal="1">
+			<UnitOfMeasureDefault unitOfMeasure="gal1hr-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasureDefault unitOfMeasure="l1hr-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasureDefault unitOfMeasure="igal1hr-1" digits="5" decimal="1" minValue="0" maxValue="99999.9" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="kl1hr-1" digits="4" decimal="2" minValue="0" maxValue="9999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="pt1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="qt1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="floz1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsEnglish"/>
+			<UnitOfMeasurePreference unitOfMeasure="ml1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="ul1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="dl1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsMetric"/>
+			<UnitOfMeasurePreference unitOfMeasure="pt1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="qt1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitOfMeasurePreference unitOfMeasure="floz1hr-1" digits="5" decimal="2" minValue="0" maxValue="99999.99" unitOfMeasureSystem="umsImperial"/>
+			<UnitDimensionRef unitDimension="utVolumePerTime"/>
+			<Name locale="en" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="de" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="fr" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="da" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="nl" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="es" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="it" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="pt" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="ru" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="hu" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="cs" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="sk" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="fi" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="sv" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="et" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="lv" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="lt" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="no" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="pl" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="bg" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="hr" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="ro" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="tr" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="el" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="is" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="sr" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="sl" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="zh" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="ar" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="he" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="ja" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="kk" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="ko" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="mk" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="th" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="uk" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="ug" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+			<Name locale="vi" description="AppRateVolume per hour">AppRateVolume per hour</Name>
+		</NumericRepresentation>
 		<EnumeratedRepresentation domainID="dtApplicationMethod" domainTag="1001" attributeID="196" domainIDShort="Applicat">
 			<Name locale="en" description="ApplicationMethod">ApplicationMethod</Name>
 			<Name locale="de" description="Ausbringmethode">Ausbringmethode</Name>

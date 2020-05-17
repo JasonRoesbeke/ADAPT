@@ -123,7 +123,7 @@ namespace AgGateway.ADAPT.Representation.RepresentationSystem
 
         public static readonly NumericRepresentation vrAppRateVolumeActual = (NumericRepresentation)RepresentationManager.Instance.Representations["vrAppRateVolumeActual"];
 
-        public static readonly NumericRepresentation vrAppRateVolumeTarget = (NumericRepresentation)RepresentationManager.Instance.Representations["vrAppRateVolumeTarget"];
+        public static readonly NumericRepresentation vrAppRateVolumeDefault = (NumericRepresentation)RepresentationManager.Instance.Representations["vrAppRateVolumeDefault"];
 
         public static readonly NumericRepresentation vrABRowSpacing = (NumericRepresentation)RepresentationManager.Instance.Representations["vrABRowSpacing"];
 
